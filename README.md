@@ -78,6 +78,9 @@ Sometimes instructions may not quite match your operating system.
 When issues occur, share screenshots, error messages, and details about what you tried.
 Working through issues is part of implementing professional projects.
 
+## Change
+
+I changed the threshold values to see what the outcome would be. The error request went to false instead of true.
 ## Success
 
 After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
