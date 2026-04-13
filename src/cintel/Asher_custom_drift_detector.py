@@ -39,7 +39,7 @@ Paths (relative to repo root)
 
 Terminal command to run this file from the root project folder
 
-    uv run python -m cintel.Asher_drift_detector
+    uv run python -m cintel.Asher_custom_drift_detector
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -66,11 +66,11 @@ ROOT_DIR: Final[Path] = Path.cwd()
 DATA_DIR: Final[Path] = ROOT_DIR / "data"
 ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts"
 
-REFERENCE_FILE: Final[Path] = DATA_DIR / "reference_metrics_case.csv"
-CURRENT_FILE: Final[Path] = DATA_DIR / "current_metrics_case.csv"
+REFERENCE_FILE: Final[Path] = DATA_DIR / "reference_metrics_Asher.csv"
+CURRENT_FILE: Final[Path] = DATA_DIR / "current_metrics_Asher.csv"
 
-OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_Asher.csv"
-SUMMARY_LONG_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_long_Asher.csv"
+OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_Asher_custom.csv"
+SUMMARY_LONG_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_long_Asher_custom.csv"
 
 # === DEFINE THRESHOLDS ===
 
